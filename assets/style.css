@@ -17,7 +17,7 @@ section{
 }
 
 .navbar{
-    padding: 20px 50px;
+    padding: 20px 50px; 
     
 }
 .navbar ul{
@@ -94,6 +94,89 @@ section{
     padding-top: 100px;
 }
 
+/* Style untuk section skill&Experience */
+.skill-experience{
+    display: flex;
+    padding: 50px;
+    background-image: linear-gradient(to right,rgba(212, 166, 104), rgba(255,255,255));
+}
+.skill-experience .experience{
+    width: 50%;
+}
+.skill-experience .experience h1{
+    font-size: 40px;
+}
+.skill-experience .experience .paragraf{
+    margin: 30px 20px;
+}
+.skill-experience .experience .desc{
+    border-left: 1px solid;
+    display: flex;
+    align-items: flex-end;
+}
+.skill-experience .experience .desc p{
+    margin-top: 30px;
+}
+.skill-experience .experience .desc span{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.skill-experience .experience .desc .circle{
+    border: 1px solid;
+    margin-right: 20px;
+    margin-left: -8px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+.skill-experience .skill{
+    width: 50%;
+}
+.skill-experience .skill .icon-row1{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.skill-experience .skill .icon-row1 .icon{
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 80px;
+    transition: .3s;
+}
+.skill-experience .skill .icon-row1 .icon:hover {
+    background-color: var(--cream);
+}
+.skill-experience .skill .icon-row1 .icon i{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.skill-experience .skill .icon-row2{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.skill-experience .skill .icon-row2 .icon{
+    text-align: center;
+    border-radius: 10px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 80px;
+    transition: .3s;
+}
+.skill-experience .skill .icon-row2 .icon:hover {
+    background-color: var(--cream);
+}
+.skill-experience .skill .icon-row2 .icon i{
+    font-size: 40px;
+}
 
 
 
